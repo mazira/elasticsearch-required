@@ -3,7 +3,7 @@
 	"description" : "A plugin for the Elasticsearch JavaScript client that enforces required fields when indexing",
 	"keywords" : ["Elasticsearch", "client", "required", "node", "node.js"],
 	"author" : "Ross Johnson <ross@mazira.com>",
-	"version" : "0.0.1",
+	"version" : "0.0.2",
 	"repository" : {
 		"type" : "git",
 		"url" : "http://github.com/mazira/elasticsearch-required"
