@@ -3,7 +3,6 @@
 	"description" : "A plugin for the Elasticsearch JavaScript client that enforces required fields when indexing",
 	"version" : "0.0.1",
 	"author" : "Ross Johnson <ross@mazira.com>",
-	"private" : true,
 	"main" : "lib/index.js",
 	"scripts" : {
 		"test" : "mocha --reporter spec"
