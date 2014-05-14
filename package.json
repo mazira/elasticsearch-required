@@ -1,14 +1,16 @@
 {
 	"name" : "elasticsearch-required",
 	"description" : "A plugin for the Elasticsearch JavaScript client that enforces required fields when indexing",
-	"version" : "0.0.1",
+	"keywords" : ["Elasticsearch", "client", "required", "node", "node.js"],
 	"author" : "Ross Johnson <ross@mazira.com>",
+	"version" : "0.0.1",
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/mazira/elasticsearch-required"
+	},
 	"main" : "lib/index.js",
 	"scripts" : {
 		"test" : "mocha --reporter spec"
-	},
-	"engines" : {
-		"node" : ">= 0.8.0"
 	},
 	"dependencies" : {
 		"bluebird" : "1.2.x"
@@ -21,5 +23,9 @@
 		"chai" : "1.9.x",
 		"chai-as-promised" : "4.1.x",
 		"elasticsearch" : "2.1.x"
+	},
+	"license" : "MIT",
+	"engines" : {
+		"node" : ">= 0.8.0"
 	}
 }
