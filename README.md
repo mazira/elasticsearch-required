@@ -4,6 +4,7 @@ Elasticsearch does not come with built-in support for specifying certain fields 
 This plugin module adds this capability to the [Elasticsearch JavaScript client](https://github.com/elasticsearch/elasticsearch-js) by checking the data before it is indexed.
 
 Note that "required" in this case does not mean "truthy", but rather that the field is specified. That is, `null` is still a valid value.
+Use this plugin in conjunction with [elasticsearch-non-nullable](https://github.com/mazira/elasticsearch-non-nullable) to enforce required, non-nullable fields.
 
 # Usage
 ## Installation

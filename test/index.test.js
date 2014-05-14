@@ -2,9 +2,6 @@
 var ESClient = require('elasticsearch').Client;
 var chai = require('chai');
 
-// module
-var utilities = require('./utilities.js');
-
 // file
 var testIndex = 'test';
 var testType = 'tweet';
